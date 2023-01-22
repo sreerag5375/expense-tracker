@@ -1,3 +1,4 @@
+import 'package:expense_tracker/views/pages/home_page.dart';
 import 'package:expense_tracker/views/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const SplashPage(),
-        '/second': (context) => const LoginPage(),
+        '/login': (context) => LoginPage(),
+        '/home': (context) => const HomePage(),
       },
     );
   }

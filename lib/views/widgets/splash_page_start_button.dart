@@ -8,7 +8,7 @@ class StartButtonWidget extends StatelessWidget {
     // ignore: sized_box_for_whitespace
     return ElevatedButton(
       onPressed: () {
-        Navigator.pushReplacementNamed(context, '/second');
+        Navigator.pushReplacementNamed(context, '/login');
       },
       style: ButtonStyle(
         shape: MaterialStateProperty.all<RoundedRectangleBorder>(
