@@ -67,6 +67,8 @@ class LoginPage extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
+                        style: ElevatedButton.styleFrom(
+                            backgroundColor: AppColor.burronsColor),
                         onPressed: () {
                           final name = nameController.text;
                           final password = passwordController.text;
@@ -105,7 +107,7 @@ class LoginPage extends StatelessWidget {
                       },
                       child: Text(
                         'Forget your password?',
-                        style: AppTextStyles.contentFontSize,
+                        style: AppTextStyles.purpleContentFontSize,
                       ))
                 ],
               )),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import '/views/widgets/space_60.dart';
 import '/views/widgets/splash_page_start_button.dart';
@@ -17,7 +16,8 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: SafeArea(
         child: SingleChildScrollView(
-          child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          child:
+              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
             const SpaceWidget(height: 50),
             Padding(
               padding: const EdgeInsets.only(left: 10.0),

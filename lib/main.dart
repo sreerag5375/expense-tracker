@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Expense tracker',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.purple),
       initialRoute: '/home',
       routes: {
         '/': (context) => const SplashPage(),
         '/login': (context) => LoginPage(),
-        '/home': (context) => const HomePage(),
+        '/home': (context) => HomePage(),
       },
     );
   }

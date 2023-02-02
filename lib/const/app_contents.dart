@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 class AppContents {
   static const SPLASHPAGE_QUOTE = "Get control your money";
   static const SNACKBARERROEMESSAGE =

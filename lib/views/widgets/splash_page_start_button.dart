@@ -1,3 +1,4 @@
+import 'package:expense_tracker/const/app_content_style.dart';
 import 'package:flutter/material.dart';
 
 class StartButtonWidget extends StatelessWidget {
@@ -10,13 +11,10 @@ class StartButtonWidget extends StatelessWidget {
       onPressed: () {
         Navigator.pushReplacementNamed(context, '/login');
       },
-      style: ButtonStyle(
-        shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-          RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8.0),
-          ),
-        ),
-      ),
+      style: ElevatedButton.styleFrom(
+          backgroundColor: AppColor.burronsColor,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(8.0))),
       child: const Text(
         'start',
         style: TextStyle(fontSize: 20),
